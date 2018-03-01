@@ -1,6 +1,9 @@
 null
 ====
 
+Description
+-----------
+
 The `null` workspace type is equivalent to a single host VM or Linux
 container-based environment as classically found in cloud computing
 environments. That is, it lacks connections with sensors or actuators

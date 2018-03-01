@@ -1,7 +1,10 @@
-fixed_brunelhand (DRAFT)
-========================
+fixed_brunelhand
+================
 
-This is currently a draft definition and is NOT NORMATIVE.
+<div class="alert alert-danger" role="alert">This is currently a DRAFT definition and is NOT NORMATIVE.</div>
+
+Description
+-----------
 
 The **fixed_brunelhand** workspace type contains a [Brunel
 Hand](https://www.openbionics.com/shop/brunel-hand) that is fixed (attached) to

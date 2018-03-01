@@ -1,7 +1,10 @@
-fixed_crazyflie (DRAFT)
-=======================
+fixed_crazyflie
+===============
 
-This is currently a draft definition and is NOT NORMATIVE.
+<div class="alert alert-danger" role="alert">This is currently a draft definition and is NOT NORMATIVE.</div>
+
+Description
+-----------
 
 The **fixed_crazyflie** workspace type contains a [Crazyflie 2.0
 quadrotor](https://www.bitcraze.io/crazyflie-2/) fixed in a vise.  Because it is
