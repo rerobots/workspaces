@@ -13,3 +13,10 @@ rotors are free to spin in response to motion commands. There is one webcam
 attached and visible from the device file `/dev/video0`.  The host has
 architecture x86_64. The quadrotor is connected with USB and, thus, can be
 reached from the Crazyflie client library at the address `usb://0`.
+
+
+Bill of materials
+-----------------
+
+* [Crazyflie 2.0](https://www.bitcraze.io/crazyflie-2/)
+* [Logitech Webcam C310](https://www.logitech.com/en-us/product/hd-webcam-c310) ([on Amazon.com](https://www.amazon.com/gp/product/B003LVZO8S/))
