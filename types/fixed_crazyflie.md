@@ -1,7 +1,7 @@
 fixed_crazyflie
 ===============
 
-<div class="alert alert-danger" role="alert">This is currently a draft definition and is NOT NORMATIVE.</div>
+<div class="alert alert-danger" role="alert">This is currently a DRAFT definition and is NOT NORMATIVE.</div>
 
 Description
 -----------
