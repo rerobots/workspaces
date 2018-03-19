@@ -20,3 +20,9 @@ Bill of materials
 
 * [Crazyflie 2.0](https://www.bitcraze.io/crazyflie-2/)
 * [Logitech Webcam C310](https://www.logitech.com/en-us/product/hd-webcam-c310) ([on Amazon.com](https://www.amazon.com/gp/product/B003LVZO8S/))
+
+
+Photographs of a deployment
+---------------------------
+
+<a title="enlarge" href="figures/fixed_crazyflie_example_sideview.png">![side view of a workspace deployment of fixed_crazyflie](figures/480px-fixed_crazyflie_example_sideview.png)</a>
