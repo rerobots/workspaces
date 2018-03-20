@@ -17,3 +17,9 @@ Bill of materials
 * [Raspberry Pi 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)
 * [Hokuyo URG-04LX-UG01](https://www.hokuyo-aut.jp/search/single.php?serial=166)
 * [Logitech Webcam C920](https://www.logitech.com/en-us/product/hd-pro-webcam-c920) ([on Amazon.com](https://www.amazon.com/gp/product/B006JH8T3S/))
+
+
+Photographs of a deployment
+---------------------------
+
+<a title="enlarge" href="figures/basic_kobuki_prototype.jpg">![Kobuki mobile base on its charging station and with Hokuyo laser range finder and Raspberry Pi 3 Model B mounted](figures/480px-basic_kobuki_prototype.jpg)</a>
