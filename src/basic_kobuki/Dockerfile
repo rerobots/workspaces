@@ -9,8 +9,11 @@ RUN sh -c 'echo "deb http://packages.ros.org/ros/ubuntu xenial main" > /etc/apt/
        avahi-daemon \
        nano \
        ros-kinetic-ros-base \
+       ros-kinetic-xacro \
+       ros-kinetic-robot-state-publisher \
        ros-kinetic-urg-node \
        ros-kinetic-kobuki-node \
+       ros-kinetic-kobuki-description \
     && mkdir -p /var/run/sshd
 
 CMD ["/usr/sbin/sshd", "-D"]
