@@ -1,3 +1,6 @@
+# SCL <scott@rerobots.net>
+# Copyright (C) 2018 rerobots, Inc.
+
 FROM ubuntu:xenial
 
 RUN sh -c 'echo "deb http://packages.ros.org/ros/ubuntu xenial main" > /etc/apt/sources.list.d/ros-latest.list' \
