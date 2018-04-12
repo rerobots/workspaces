@@ -19,4 +19,6 @@ RUN sh -c 'echo "deb http://packages.ros.org/ros/ubuntu xenial main" > /etc/apt/
        ros-kinetic-kobuki-description \
     && mkdir -p /var/run/sshd
 
+COPY robot.launch /root/
+
 CMD ["/usr/sbin/sshd", "-D"]
