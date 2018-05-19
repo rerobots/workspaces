@@ -1,8 +1,16 @@
 Workspaces by rerobots
 ======================
 
+Introduction
+------------
+
 The current release of this documentation is available at
 https://help.rerobots.net/workspaces
+
+The notion of **workspaces** is developed in [the preliminaries section](
+https://help.rerobots.net/prelim.html). The ambition of this repository is to
+define workspace types and to provide code and documentation for producing new
+workspace deployments that realize these types.
 
 
 Building
