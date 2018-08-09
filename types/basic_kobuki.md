@@ -6,8 +6,25 @@ basic_kobuki
 Description
 -----------
 
+The workspace type has two compute nodes:
+
+1. hostname `rrc0`: offboard (physically outside the reachable space); x86_64 GNU/Linux box.
+2. hostname `rrc1`: mounted onboard the robot; small, low-power ARM board (armv7l).
+
+### on rrc0
+
 There are two webcams attached and visible from the device files `/dev/video0`
-and `/dev/video1`.  The host has architecture x86_64.
+and `/dev/video1`.
+
+### on rrc1
+
+The Kobuki mobile platform and Hokuyo laser scanner are both attached via USB.
+In the default image, the home directory contains the
+[roslaunch](https://wiki.ros.org/roslaunch) file [robot.launch](
+https://github.com/rerobots/workspaces/blob/master/src/basic_kobuki/robot.launch).
+This file starts a ROS Kinetic configuration for using the robot.
+It uses the ROS packages [urg_node](https://wiki.ros.org/urg_node) and
+[kobuki_node](https://wiki.ros.org/kobuki_node).
 
 
 Bill of materials
