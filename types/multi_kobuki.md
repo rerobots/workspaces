@@ -31,7 +31,7 @@ It uses the ROS packages [urg_node](https://wiki.ros.org/urg_node) and
 
 This mobile robot is entirely similar to `rrc1`, except that it might have an
 RPLIDAR A2 laser scanner instead of one by Hokuyo. In that case, the reference
-robot.launch would instead use the ROS package [rplidar](https://wiki.ros.org/rplidar)
+robot.launch would instead use the ROS package [rplidar](https://wiki.ros.org/rplidar).
 
 
 Bill of materials
