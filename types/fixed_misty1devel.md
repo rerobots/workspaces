@@ -25,4 +25,4 @@ Bill of materials
 Photographs of a deployment
 ---------------------------
 
-<a title="enlarge" href="figures/fixed_misty1devel_cornerview.png">![front-corner view of the upper chest and head of a Misty I Developer Edition robot](figures/480px-fixed_misty1devel_cornerview.jpg)</a>
+<a title="enlarge" href="figures/fixed_misty1devel_frontview.jpg">![front view of a Misty I Developer Edition robot](figures/480px-fixed_misty1devel_frontview.jpg)</a>
