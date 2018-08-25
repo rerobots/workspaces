@@ -27,11 +27,13 @@ This file starts a ROS Kinetic configuration for using the robot.
 It uses the ROS packages [urg_node](https://wiki.ros.org/urg_node) and
 [kobuki_node](https://wiki.ros.org/kobuki_node).
 
-### on rrc2
+### on rrc2 ... rrcN
 
-This mobile robot is entirely similar to `rrc1`, except that it might have an
-RPLIDAR A2 laser scanner instead of one by Hokuyo. In that case, the reference
-robot.launch would instead use the ROS package [rplidar](https://wiki.ros.org/rplidar).
+After the first mobile robot, deployments of this workspace type can include any
+number of mobile robots. Each mobile robot is entirely similar to `rrc1`, except
+that it might have an RPLIDAR A2 laser scanner instead of one by Hokuyo. In that
+case, the reference robot.launch would instead use the ROS package
+[rplidar](https://wiki.ros.org/rplidar).
 
 
 Bill of materials
