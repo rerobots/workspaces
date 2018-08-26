@@ -30,9 +30,9 @@ It uses the ROS packages [urg_node](https://wiki.ros.org/urg_node) and
 ### on rrc2 ... rrcN
 
 After the first mobile robot, deployments of this workspace type can include any
-number of mobile robots. Each mobile robot is entirely similar to `rrc1`, except
-that it might have an RPLIDAR A2 laser scanner instead of one by Hokuyo. In that
-case, the reference robot.launch would instead use the ROS package
+number of mobile robots. Each is entirely similar to `rrc1`, except that it
+might have an RPLIDAR A2 laser scanner instead of one by Hokuyo. In that case,
+the reference robot.launch would instead use the ROS package
 [rplidar](https://wiki.ros.org/rplidar).
 
 
