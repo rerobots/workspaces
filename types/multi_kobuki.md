@@ -6,11 +6,10 @@ multi_kobuki
 Description
 -----------
 
-The workspace type has three compute nodes:
+The workspace type has two or more compute nodes:
 
-1. hostname `rrc0`: offboard (physically outside the reachable space); x86_64 GNU/Linux box.
-2. hostname `rrc1`: mounted onboard one of the robots; small, low-power ARM board (armv7l).
-3. hostname `rrc2`: mounted onboard the other robot; small, low-power ARM board (armv7l).
+* hostname `rrc0`: offboard (physically outside the reachable space); x86_64 GNU/Linux box.
+* hostnames `rrc1` ... `rrcN`: each mounted onboard one of the robots; small, low-power ARM board (armv7l).
 
 ### on rrc0
 
