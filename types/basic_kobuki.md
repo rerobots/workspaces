@@ -1,7 +1,5 @@
-basic_kobuki
+basic_kobuki <small>(version 1)</small>
 ============
-
-<div class="alert alert-danger" role="alert">This is currently a DRAFT definition and is NOT NORMATIVE.</div>
 
 Description
 -----------
