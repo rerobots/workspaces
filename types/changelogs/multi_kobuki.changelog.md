@@ -1,6 +1,6 @@
 ### multi_kobuki, version 2
 
-  * number of mobile robots is now arbtitrary (not only 2)
+  * number of mobile robots is now arbitrary (not only 2)
 
  -- Scott C. Livingston <scott@rerobots.net> Tue, 28 Aug 2018
 
