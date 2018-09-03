@@ -4,6 +4,9 @@ multi_kobuki <small>(version 2)</small>
 Description
 -----------
 
+The **multi_kobuki** workspace type is an extension of the [basic_kobuki](
+basic_kobuki.html) type to have more than one mobile robot.
+
 The workspace type has two or more compute nodes:
 
 * hostname `rrc0`: offboard (physically outside the reachable space); x86_64 GNU/Linux box.
