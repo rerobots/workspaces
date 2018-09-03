@@ -4,6 +4,11 @@ basic_kobuki <small>(version 1)</small>
 Description
 -----------
 
+The **basic_kobuki** workspace type has a freely moving robot that is a simple
+combination of a Kobuki mobile base, a Raspberry Pi, and laser range finder.  It
+is contained in a space that can be different among deployments of this type;
+however, in all cases, it is indoors in an office-like environment.
+
 The workspace type has two compute nodes:
 
 1. hostname `rrc0`: offboard (physically outside the reachable space); x86_64 GNU/Linux box.
