@@ -15,7 +15,7 @@ robot.
 Bill of materials
 -----------------
 
-* [Misty I Developer Edition](https://medium.com/mistyrobotics/the-misty-i-developer-edition-d36f8bba9beb) (also, read the [Misty Fast Facts page](https://docs.mistyrobotics.com/onboarding/get-started/fast-facts/), at least, [as of 2018-06-19](https://web.archive.org/web/20180619193731/https://docs.mistyrobotics.com/onboarding/get-started/fast-facts/))
+* [Misty I Developer Edition](https://docs.mistyrobotics.com/onboarding/get-started/fast-facts/), at least, [as of 2018-06-19](https://web.archive.org/web/20180619193731/https://docs.mistyrobotics.com/onboarding/get-started/fast-facts/)
 * [Logitech Webcam C920](https://www.logitech.com/en-us/product/hd-pro-webcam-c920) ([on Amazon.com](https://www.amazon.com/gp/product/B006JH8T3S/))
 
 
