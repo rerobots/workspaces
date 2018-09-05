@@ -20,4 +20,4 @@ Bill of materials
 Photographs of a deployment
 ---------------------------
 
-<a title="enlarge" href="figures/PIX_Honda_car_frontcornerview.jpg">![front view of a drive-by-wire Honda sedan with Velodyne LiDAR mounted on top](figures/480px-PIX_Honda_car_frontcornerview.jpg)</a>
+<a title="enlarge" href="figures/PIX_Honda_car_frontcornerview.png">![front view of a drive-by-wire Honda sedan with Velodyne LiDAR mounted on top](figures/480px-PIX_Honda_car_frontcornerview.jpg)</a>
