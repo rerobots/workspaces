@@ -6,8 +6,8 @@ Description
 
 This workspace type has a Misty I Developer Edition by [Misty Robotics](
 https://www.mistyrobotics.com/). It is lifted, so the wheels are free to move
-while the center of the body is fixed.  There is one webcam attached and
-visible from the device file `/dev/video0`.  Every workspace
+while the center of the body is fixed.  There are two webcams attached and
+visible from the device files `/dev/video0` and `/dev/video1`.  Every workspace
 instance includes an offboard host (x86_64 Linux) on the same network as the
 robot.
 
