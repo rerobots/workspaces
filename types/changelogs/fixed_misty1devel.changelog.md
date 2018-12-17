@@ -1,3 +1,10 @@
+### fixed_misty1devel, version 3
+
+  * audio actuation via speakers (Logitech Z200) directed at robot
+
+ -- Scott C. Livingston <scott@rerobots.net> Sun, 16 Dec 2018
+
+
 ### fixed_misty1devel, version 2
 
   * new prototype from Misty Robotics
