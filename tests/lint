@@ -1,0 +1,58 @@
+#!/usr/bin/env python
+"""linter for workspace type definitions and related files
+
+
+SCL <scott@rerobots.net>
+Copyright (C) 2019 rerobots, Inc.
+"""
+from __future__ import print_function
+
+import argparse
+import os
+import os.path
+from pathlib import Path
+import re
+import sys
+
+
+def check_version_headers():
+    wtypes_path = 'types/'
+
+    wtypes = []
+    for p in Path(wtypes_path).iterdir():
+        if p.is_file() and str(p).endswith('.md'):
+            wtypes.append(os.path.basename(str(p)[:-3]))
+
+    for wtype in wtypes:
+        with open(os.path.join(wtypes_path, wtype + '.md'), 'rt') as fp:
+            title = fp.readline()
+            m = re.search(r'\(version ([0-9]+)\)', title)
+            if m is not None:
+                title_version = int(m[1])
+            else:
+                title_version = None
+        if title_version is not None:
+            with open(os.path.join(wtypes_path, 'changelogs', wtype + '.changelog.md'), 'rt') as fp:
+                changelog_top_version = None
+                for line in fp:
+                    if not line.startswith('### '):
+                        continue
+                    m = re.search(r'version ([0-9]+)', line)
+                    changelog_top_version = int(m[1])
+                    break
+            if changelog_top_version is not None:
+                assert title_version == changelog_top_version
+
+
+def main(argv=None):
+    if argv is None:
+        argv = sys.argv[1:]
+
+    argparser = argparse.ArgumentParser(description='linter for rerobots workspace type definitions and related files')
+    args = argparser.parse_args(argv)
+
+    check_version_headers()
+
+
+if __name__ == '__main__':
+    sys.exit(main(sys.argv[1:]))
