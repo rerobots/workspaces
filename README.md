@@ -13,12 +13,16 @@ define workspace types and to provide code and documentation for producing new
 workspace deployments that realize these types.
 
 
-Building
---------
+Building and testing
+--------------------
 
 A [Git LFS](https://git-lfs.github.com/) client is required to clone this
 repository. Note that `git clone` will succeed without `git lfs` available, but
 some large files will not be fetched.
+
+To perform checks of the type definitions and other files,
+
+    tests/lint
 
 
 Style guide
