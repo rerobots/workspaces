@@ -24,7 +24,8 @@ def check_changelogs_exist():
             wtypes.append(os.path.basename(str(p)[:-3]))
 
     for wtype in wtypes:
-        assert os.path.exists(os.path.join(wtypes_path, 'changelogs', wtype + '.changelog.md'))
+        assert os.path.exists(os.path.join(wtypes_path, 'changelogs', wtype + '.changelog.md')), \
+            'missing changelog for workspace type: {}'.format(wtype)
 
 
 def check_version_headers():
@@ -53,7 +54,8 @@ def check_version_headers():
                     changelog_top_version = int(m[1])
                     break
             if changelog_top_version is not None:
-                assert title_version == changelog_top_version
+                assert title_version == changelog_top_version, \
+                    'mismatched versions in title and changelog of workspace type: {}'.format(wtype)
 
 
 def main(argv=None):
