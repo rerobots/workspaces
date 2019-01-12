@@ -15,28 +15,22 @@ import re
 import sys
 
 
-def check_changelogs_exist():
-    wtypes_path = 'types/'
-
+def get_wtypes_list(wtypes_path):
     wtypes = []
     for p in Path(wtypes_path).iterdir():
         if p.is_file() and str(p).endswith('.md'):
             wtypes.append(os.path.basename(str(p)[:-3]))
+    return wtypes
 
-    for wtype in wtypes:
+
+def check_changelogs_exist(wtypes_path):
+    for wtype in get_wtypes_list(wtypes_path):
         assert os.path.exists(os.path.join(wtypes_path, 'changelogs', wtype + '.changelog.md')), \
             'missing changelog for workspace type: {}'.format(wtype)
 
 
-def check_version_headers():
-    wtypes_path = 'types/'
-
-    wtypes = []
-    for p in Path(wtypes_path).iterdir():
-        if p.is_file() and str(p).endswith('.md'):
-            wtypes.append(os.path.basename(str(p)[:-3]))
-
-    for wtype in wtypes:
+def check_version_headers(wtypes_path):
+    for wtype in get_wtypes_list(wtypes_path):
         with open(os.path.join(wtypes_path, wtype + '.md'), 'rt') as fp:
             title = fp.readline()
             m = re.search(r'\(version ([0-9]+)\)', title)
@@ -65,8 +59,8 @@ def main(argv=None):
     argparser = argparse.ArgumentParser(description='linter for rerobots workspace type definitions and related files')
     args = argparser.parse_args(argv)
 
-    check_changelogs_exist()
-    check_version_headers()
+    check_changelogs_exist('types/')
+    check_version_headers('types/')
 
 
 if __name__ == '__main__':
