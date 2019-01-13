@@ -14,6 +14,8 @@ from pathlib import Path
 import re
 import sys
 
+from markdown import markdown
+
 
 def get_wtypes_list(wtypes_path):
     wtypes = []
@@ -21,6 +23,15 @@ def get_wtypes_list(wtypes_path):
         if p.is_file() and str(p).endswith('.md'):
             wtypes.append(os.path.basename(str(p)[:-3]))
     return wtypes
+
+
+def check_minrequired_sections(wtypes_path):
+    for wtype in get_wtypes_list(wtypes_path):
+        with open(os.path.join(wtypes_path, wtype + '.md'), 'rt') as fp:
+            x = markdown(fp.read(), output_format='html5')
+            sections = re.findall(r'<h2>(.*)</h2>', x)
+            for req_section in ['Description', 'Bill of materials']:
+                assert req_section in sections, 'missing required section {} in {}'.format(req_section, wtype + '.md')
 
 
 def check_changelogs_exist(wtypes_path):
@@ -61,6 +72,7 @@ def main(argv=None):
 
     check_changelogs_exist('types/')
     check_version_headers('types/')
+    check_minrequired_sections('types/')
 
 
 if __name__ == '__main__':
