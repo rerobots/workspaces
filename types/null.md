@@ -11,3 +11,9 @@ prerequisite to be a robot.
 
 This workspace type is primarily intended to support testing of rerobots
 infrastructure, but it might be of independent interest.
+
+
+Bill of materials
+-----------------
+
+(none)
