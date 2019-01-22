@@ -74,6 +74,8 @@ def main(argv=None):
     check_version_headers('types/')
     check_minrequired_sections('types/')
 
+    return 0
+
 
 if __name__ == '__main__':
     sys.exit(main(sys.argv[1:]))
