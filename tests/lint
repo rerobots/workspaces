@@ -10,7 +10,6 @@ from __future__ import print_function
 import argparse
 import os
 import os.path
-from pathlib import Path
 import re
 import sys
 
@@ -19,9 +18,9 @@ from markdown import markdown
 
 def get_wtypes_list(wtypes_path):
     wtypes = []
-    for p in Path(wtypes_path).iterdir():
-        if p.is_file() and str(p).endswith('.md'):
-            wtypes.append(os.path.basename(str(p)[:-3]))
+    for p in os.listdir(wtypes_path):
+        if os.path.isfile(os.path.join(wtypes_path, p)) and p.endswith('.md'):
+            wtypes.append(os.path.basename(p[:-3]))
     return wtypes
 
 
