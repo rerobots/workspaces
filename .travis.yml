@@ -1,0 +1,14 @@
+os:
+  - linux
+
+install:
+  - pip install -r devel-requirements.txt
+
+script: tests/lint
+
+notifications:
+  email:
+    recipients:
+      - scott@rerobots.net
+    on_success: change
+    on_failure: always
