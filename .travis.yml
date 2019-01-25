@@ -1,10 +1,18 @@
-os:
-  - linux
+language: minimal
+os: linux
+dist: xenial
+addons:
+  apt:
+    packages:
+    - python3-pip
+
 
 install:
-  - pip install -r devel-requirements.txt
+  - sudo pip3 install -U pip
+  - sudo pip3 install -r devel-requirements.txt
 
-script: tests/lint
+script: python3 tests/lint
+
 
 notifications:
   email:

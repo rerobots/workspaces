@@ -45,7 +45,7 @@ def check_version_headers(wtypes_path):
             title = fp.readline()
             m = re.search(r'\(version ([0-9]+)\)', title)
             if m is not None:
-                title_version = int(m[1])
+                title_version = int(m.group(1))
             else:
                 title_version = None
         if title_version is not None:
@@ -55,7 +55,7 @@ def check_version_headers(wtypes_path):
                     if not line.startswith('### '):
                         continue
                     m = re.search(r'version ([0-9]+)', line)
-                    changelog_top_version = int(m[1])
+                    changelog_top_version = int(m.group(1))
                     break
             if changelog_top_version is not None:
                 assert title_version == changelog_top_version, \
