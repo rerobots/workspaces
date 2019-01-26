@@ -9,7 +9,7 @@ addons:
 
 install:
   - sudo pip3 install -U pip
-  - sudo pip3 install -r devel-requirements.txt
+  - sudo pip3 install --require-hashes -r devel-requirements.txt
 
 script: python3 tests/lint
 
