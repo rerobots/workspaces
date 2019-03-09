@@ -1,4 +1,4 @@
-fixed_misty1devel <small>(version 3)</small>
+fixed_misty1devel <small>(version 4)</small>
 =================
 
 Description
@@ -18,7 +18,6 @@ Bill of materials
 * [Misty I Developer Edition](https://docs.mistyrobotics.com/onboarding/get-started/fast-facts/), at least, [as of 2018-06-19](https://web.archive.org/web/20180619193731/https://docs.mistyrobotics.com/onboarding/get-started/fast-facts/)
 * [Logitech Webcam C920](https://www.logitech.com/en-us/product/hd-pro-webcam-c920) ([on Amazon.com](https://www.amazon.com/gp/product/B006JH8T3S/))
 * [Logitech Webcam C310](https://www.logitech.com/en-us/product/hd-webcam-c310) ([on Amazon.com](https://www.amazon.com/gp/product/B003LVZO8S/))
-* [Logitech Z200 Stereo Speakers](https://www.logitech.com/en-us/product/multimedia-speakers-z200) ([on Amazon.com](https://www.amazon.com/Logitech-Multimedia-Speakers-Multiple-Devices/dp/B00EZ9XKCM/))
 
 
 Photographs of a deployment
