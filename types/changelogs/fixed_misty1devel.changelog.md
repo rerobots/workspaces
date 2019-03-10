@@ -1,3 +1,10 @@
+### fixed_misty1devel, version 5
+
+  * remove second webcam because it was not found to be useful in practice
+
+ -- Scott C. Livingston <scott@rerobots.net> Sun, 10 Mar 2019
+
+
 ### fixed_misty1devel, version 4
 
   * remove speakers because the fan onboard the robot creates too much noise for
