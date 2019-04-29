@@ -1,3 +1,10 @@
+### fixed_misty1devel, version 6
+
+  * change model of webcam to Logitech Webcam C270
+
+ -- Scott C. Livingston <scott@rerobots.net> Sun, 28 Apr 2019
+
+
 ### fixed_misty1devel, version 5
 
   * remove second webcam because it was not found to be useful in practice

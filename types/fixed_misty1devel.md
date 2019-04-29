@@ -1,4 +1,4 @@
-fixed_misty1devel <small>(version 5)</small>
+fixed_misty1devel <small>(version 6)</small>
 =================
 
 Description
@@ -16,7 +16,7 @@ Bill of materials
 -----------------
 
 * [Misty I Developer Edition](https://docs.mistyrobotics.com/docs/robots/misty-i/)
-* [Logitech Webcam C920](https://www.logitech.com/en-us/product/hd-pro-webcam-c920) ([on Amazon.com](https://www.amazon.com/gp/product/B006JH8T3S/))
+* [Logitech Webcam C270](https://support.logitech.com/en_us/product/hd-webcam-c270) ([on Amazon.com](https://www.amazon.com/Logitech-Widescreen-designed-Calling-Recording/dp/B004FHO5Y6/))
 
 
 Photographs of a deployment
