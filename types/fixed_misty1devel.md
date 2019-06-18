@@ -11,6 +11,9 @@ visible from the device file `/dev/video0`.  Every workspace
 instance includes an offboard host (x86_64 Linux) on the same network as the
 robot.
 
+Note that the Misty I Developer Edition is superseded by [the Misty II Field
+Trial robot](fixed_misty2fieldtrial.html).
+
 
 Bill of materials
 -----------------
