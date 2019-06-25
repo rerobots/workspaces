@@ -1,4 +1,4 @@
-fixed_misty2fieldtrial <small>(version 1)</small>
+fixed_misty2fieldtrial <small>(version 2)</small>
 ======================
 
 Description
