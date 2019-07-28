@@ -23,4 +23,4 @@ Bill of materials
 Photographs of a deployment
 ---------------------------
 
-<a title="enlarge" href="figures/fixed_misty2fieldtrial_frontview.jpg">![front view of a Misty I Developer Edition robot](figures/480px-fixed_misty2fieldtrial_frontview.jpg)</a>
+<a title="enlarge" href="figures/fixed_misty2fieldtrial_frontview.jpg">![front view of a Misty II Field Trial robot](figures/480px-fixed_misty2fieldtrial_frontview.jpg)</a>
