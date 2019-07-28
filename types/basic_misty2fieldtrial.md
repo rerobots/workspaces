@@ -6,12 +6,12 @@ Description
 
 This workspace type has a Misty II Field Trial robot by [Misty Robotics](
 https://www.mistyrobotics.com/). The robot is free to move inside a space that
-resembles a modern indoors office in terms of colors, textures, and shapes.
-Every workspace instance includes an offboard host (x86_64 Linux) on the same
-network as the robot. There several webcams that provide various perspectives
-and that can be accessed via standard device files `/dev/video0`, `/dev/video1`,
-etc. on the offboard host. The workspace includes external speakers for
-audio-related tests, such as localization.
+resembles the inside of a modern office building.  Every workspace instance
+includes an offboard host (x86_64 Linux) on the same network as the robot. There
+are several webcams that provide various perspectives and that can be accessed
+via standard device files `/dev/video0`, `/dev/video1`, etc. on the offboard
+host. The workspace includes external speakers for audio-related tests, such as
+localization.
 
 
 Bill of materials
