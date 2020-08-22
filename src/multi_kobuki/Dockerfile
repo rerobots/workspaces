@@ -43,4 +43,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install \
 
 RUN bash -c 'source /opt/ros/melodic/setup.bash && cd /root/catkin_ws && catkin_make_isolated -j 1 --install --install-space /opt/ros/melodic'
 
+COPY start-ros-teleop.sh /root/
+
 CMD ["/usr/sbin/sshd", "-D"]
