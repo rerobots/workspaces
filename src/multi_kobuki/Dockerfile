@@ -14,6 +14,8 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install \
        openvpn \
        avahi-daemon \
        nano \
+       tmux \
+       magic-wormhole \
        ros-melodic-ros-base \
        ros-melodic-kobuki-*
 
