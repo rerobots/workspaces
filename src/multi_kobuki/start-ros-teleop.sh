@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 # SCL <scott@rerobots.net>
 # Copyright (C) 2020 rerobots, Inc.
 
