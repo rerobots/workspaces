@@ -14,7 +14,7 @@ if pgrep -f robot.launch > /dev/null && rostopic list > /dev/null 2>&1; then
 fi
 echo 'Starting'
 if test -n "$TMUX"; then
-    tmux new-window -d roslaunch robot.launch
+    tmux new-window -d bash -c 'source /opt/ros/melodic/setup.bash && roslaunch robot.launch'
     while ! rostopic list > /dev/null 2>&1; do
 	sleep 2
 	echo -n '.'
