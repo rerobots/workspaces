@@ -1,3 +1,6 @@
+# docker build -t rerobots/workspaces-multi_kobuki -f Dockerfile .
+#
+#
 # SCL <scott@rerobots.net>
 # Copyright (C) 2018, 2020 rerobots, Inc.
 
