@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 """
-SCL <scott@rerobots.net>
 Copyright (C) 2020 rerobots, Inc.
+This is free software, released under the Apache License, Version 2.0.
+You may obtain a copy of the License at https://www.apache.org/licenses/LICENSE-2.0
 """
 import time
 
