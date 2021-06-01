@@ -1,5 +1,6 @@
 language: minimal
 os: linux
+dist: focal
 addons:
   apt:
     packages:
