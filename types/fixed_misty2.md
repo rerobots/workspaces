@@ -14,7 +14,7 @@ offboard host (x86_64 Linux) on the same network as the robot.
 Bill of materials
 -----------------
 
-* [Misty II robot](https://docs.mistyrobotics.com/misty-ii/robot/get-started/)
+* [Misty II robot](https://docs.mistyrobotics.com/misty-ii/robot/misty-ii/)
 * [Logitech Webcam C920](https://www.logitech.com/en-us/product/hd-pro-webcam-c920) ([on Amazon.com](https://www.amazon.com/gp/product/B006JH8T3S/))
 
 
