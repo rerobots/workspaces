@@ -18,7 +18,7 @@ Trial robot](fixed_misty2fieldtrial.html).
 Bill of materials
 -----------------
 
-* [Misty I Developer Edition](https://docs.mistyrobotics.com/docs/robots/misty-i/)
+* [Misty I Developer Edition](https://web.archive.org/web/20190310204317/https://docs.mistyrobotics.com/docs/robots/misty-i/)
 * [Logitech Webcam C270](https://support.logitech.com/en_us/product/hd-webcam-c270) ([on Amazon.com](https://www.amazon.com/Logitech-Widescreen-designed-Calling-Recording/dp/B004FHO5Y6/))
 
 
