@@ -39,7 +39,7 @@ Markdown.) Except for source examples or other raw code, lines should have
 length at most 80.
 
 LaTeX should be used for typesetting mathematics text. Mathematics rendering
-within generated HTML pages uses [MathJax]( https://www.mathjax.org/).
+within generated HTML pages uses [MathJax](https://www.mathjax.org/).
 
 
 Licenses
