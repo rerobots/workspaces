@@ -1,8 +1,10 @@
-fixed_misty1devel <small>(version 6)</small>
-=================
+---
+version: 6
+---
 
-Description
------------
+# fixed_misty1devel
+
+## Description
 
 This workspace type has a Misty I Developer Edition by [Misty Robotics](
 https://www.mistyrobotics.com/). It is lifted, so the wheels are free to move
@@ -15,14 +17,12 @@ Note that the Misty I Developer Edition is superseded by [the Misty II Field
 Trial robot](fixed_misty2fieldtrial.html).
 
 
-Bill of materials
------------------
+## Bill of materials
 
 * [Misty I Developer Edition](https://web.archive.org/web/20190310204317/https://docs.mistyrobotics.com/docs/robots/misty-i/)
 * [Logitech Webcam C270](https://support.logitech.com/en_us/product/hd-webcam-c270) ([on Amazon.com](https://www.amazon.com/Logitech-Widescreen-designed-Calling-Recording/dp/B004FHO5Y6/))
 
 
-Photographs of a deployment
----------------------------
+## Photographs of a deployment
 
 <a title="enlarge" href="figures/fixed_misty1devel_frontview.jpg">![front view of a Misty I Developer Edition robot](figures/480px-fixed_misty1devel_frontview.jpg)</a>

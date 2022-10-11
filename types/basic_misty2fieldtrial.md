@@ -1,8 +1,10 @@
-basic_misty2fieldtrial <small>(version 1)</small>
-======================
+---
+version: 1
+---
 
-Description
------------
+# basic_misty2fieldtrial
+
+## Description
 
 This workspace type has a Misty II Field Trial robot by [Misty Robotics](
 https://www.mistyrobotics.com/). The robot is free to move inside a space that
@@ -14,15 +16,13 @@ host. The workspace includes external speakers for audio-related tests, such as
 localization.
 
 
-Bill of materials
------------------
+## Bill of materials
 
 * [Misty II Field Trial robot](https://docs.mistyrobotics.com/misty-ii/robot/misty-ii/) ([pre-order Misty II](https://shop.mistyrobotics.com/))
 * [Logitech Webcam C920](https://www.logitech.com/en-us/product/hd-pro-webcam-c920) ([on Amazon.com](https://www.amazon.com/gp/product/B006JH8T3S/))
 * [Logitech Z200 Stereo Speakers](https://www.logitech.com/en-us/product/multimedia-speakers-z200) ([on Amazon.com](https://www.amazon.com/Logitech-Multimedia-Speakers-Multiple-Devices/dp/B00EZ9XKCM/))
 
 
-Photographs of a deployment
----------------------------
+## Photographs of a deployment
 
 <a title="enlarge" href="figures/basic_misty2fieldtrial.jpg">![Misty II Field Trial robot located near its charging pad, and an offboard speaker and webcam](figures/480px-basic_misty2fieldtrial.jpg)</a>

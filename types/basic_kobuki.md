@@ -1,8 +1,10 @@
-basic_kobuki <small>(version 1)</small>
-============
+---
+version: 1
+---
 
-Description
------------
+# basic_kobuki
+
+## Description
 
 The **basic_kobuki** workspace type has a freely moving robot that is a simple
 combination of a Kobuki mobile base, a Raspberry Pi, and laser range finder.  It
@@ -30,8 +32,7 @@ It uses the ROS packages [urg_node](https://wiki.ros.org/urg_node) and
 [kobuki_node](https://wiki.ros.org/kobuki_node).
 
 
-Bill of materials
------------------
+## Bill of materials
 
 * [Kobuki](http://kobuki.yujinrobot.com/)
 * [Raspberry Pi 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)
@@ -39,7 +40,6 @@ Bill of materials
 * [Logitech Webcam C920](https://www.logitech.com/en-us/product/hd-pro-webcam-c920) ([on Amazon.com](https://www.amazon.com/gp/product/B006JH8T3S/))
 
 
-Photographs of a deployment
----------------------------
+## Photographs of a deployment
 
 <a title="enlarge" href="figures/basic_kobuki_prototype.jpg">![Kobuki mobile base on its charging station and with Hokuyo laser range finder and Raspberry Pi 3 Model B mounted](figures/480px-basic_kobuki_prototype.jpg)</a>

@@ -1,8 +1,10 @@
-fixed_brunelhand <small>(version 2)</small>
-================
+---
+version: 2
+---
 
-Description
------------
+# fixed_brunelhand
+
+## Description
 
 The **fixed_brunelhand** workspace type contains a [Brunel
 Hand](https://openbionicslabs.com/shop/brunel-hand) that is fixed (attached) to
@@ -12,14 +14,12 @@ present through the device file `/dev/ttyACM0`.  The host has architecture
 x86_64.
 
 
-Bill of materials
------------------
+## Bill of materials
 
 * [Brunel Hand](https://openbionicslabs.com/shop/brunel-hand)
 * [Logitech Webcam C310](https://www.logitech.com/en-us/product/hd-webcam-c310) ([on Amazon.com](https://www.amazon.com/gp/product/B003LVZO8S/))
 
 
-Photographs of a deployment
----------------------------
+## Photographs of a deployment
 
 <a title="enlarge" href="figures/fixed_brunelhand_example_cornernview.png">![corner view of a workspace deployment of fixed_brunelhand](figures/480px-fixed_brunelhand_example_cornernview.png)</a>

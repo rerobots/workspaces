@@ -1,8 +1,10 @@
-null <small>(version 1)</small>
-====
+---
+version: 1
+---
 
-Description
------------
+# null
+
+## Description
 
 The `null` workspace type is equivalent to a single host VM or Linux
 container-based environment as classically found in cloud computing
@@ -13,7 +15,6 @@ This workspace type is primarily intended to support testing of rerobots
 infrastructure, but it might be of independent interest.
 
 
-Bill of materials
------------------
+## Bill of materials
 
 (none)

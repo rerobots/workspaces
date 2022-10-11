@@ -1,8 +1,10 @@
-multi_kobuki <small>(version 2)</small>
-============
+---
+version: 2
+---
 
-Description
------------
+# multi_kobuki
+
+## Description
 
 The **multi_kobuki** workspace type is an extension of the [basic_kobuki](
 basic_kobuki.html) type to have more than one mobile robot.
@@ -37,8 +39,7 @@ the reference robot.launch would instead use the ROS package
 https://github.com/rerobots/workspaces/blob/master/src/multi_kobuki/robot-RPLIDAR.launch).
 
 
-Bill of materials
------------------
+## Bill of materials
 
 * [Kobuki](http://kobuki.yujinrobot.com/)
 * [Raspberry Pi 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)
@@ -47,7 +48,6 @@ Bill of materials
 * [Logitech Webcam C920](https://www.logitech.com/en-us/product/hd-pro-webcam-c920) ([on Amazon.com](https://www.amazon.com/gp/product/B006JH8T3S/))
 
 
-Photographs of a deployment
----------------------------
+## Photographs of a deployment
 
 <a title="enlarge" href="figures/multi_kobuki_cornerview.jpg">![two Kobuki mobile bases; one with Hokuyo laser range finder and Raspberry Pi 3 Model B mounted](figures/480px-multi_kobuki_cornerview.jpg)</a>
