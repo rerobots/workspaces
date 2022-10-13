@@ -25,4 +25,4 @@ Trial robot](fixed_misty2fieldtrial.html).
 
 ## Photographs of a deployment
 
-<a title="enlarge" href="figures/fixed_misty1devel_frontview.jpg">![front view of a Misty I Developer Edition robot](figures/480px-fixed_misty1devel_frontview.jpg)</a>
+[![front view of a Misty I Developer Edition robot](figures/480px-fixed_misty1devel_frontview.jpg)](figures/fixed_misty1devel_frontview.jpg)

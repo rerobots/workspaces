@@ -50,4 +50,4 @@ https://github.com/rerobots/workspaces/blob/master/src/multi_kobuki/robot-RPLIDA
 
 ## Photographs of a deployment
 
-<a title="enlarge" href="figures/multi_kobuki_cornerview.jpg">![two Kobuki mobile bases; one with Hokuyo laser range finder and Raspberry Pi 3 Model B mounted](figures/480px-multi_kobuki_cornerview.jpg)</a>
+[![two Kobuki mobile bases; one with Hokuyo laser range finder and Raspberry Pi 3 Model B mounted](figures/480px-multi_kobuki_cornerview.jpg)](figures/multi_kobuki_cornerview.jpg)

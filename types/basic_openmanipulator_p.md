@@ -21,4 +21,4 @@ WARNING: This section is work-in-progress.
 
 ## Photographs of a deployment
 
-<a title="enlarge" href="figures/basic_openmanipulator_p_cornerview.jpg">![corner view of robot](figures/480px-basic_openmanipulator_p_cornerview.jpg)</a>
+[![corner view of robot](figures/480px-basic_openmanipulator_p_cornerview.jpg)](figures/basic_openmanipulator_p_cornerview.jpg)

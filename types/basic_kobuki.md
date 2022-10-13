@@ -42,4 +42,4 @@ It uses the ROS packages [urg_node](https://wiki.ros.org/urg_node) and
 
 ## Photographs of a deployment
 
-<a title="enlarge" href="figures/basic_kobuki_prototype.jpg">![Kobuki mobile base on its charging station and with Hokuyo laser range finder and Raspberry Pi 3 Model B mounted](figures/480px-basic_kobuki_prototype.jpg)</a>
+[![Kobuki mobile base on its charging station and with Hokuyo laser range finder and Raspberry Pi 3 Model B mounted](figures/480px-basic_kobuki_prototype.jpg)](figures/basic_kobuki_prototype.jpg)

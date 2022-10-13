@@ -22,4 +22,4 @@ x86_64.
 
 ## Photographs of a deployment
 
-<a title="enlarge" href="figures/fixed_brunelhand_example_cornernview.png">![corner view of a workspace deployment of fixed_brunelhand](figures/480px-fixed_brunelhand_example_cornernview.png)</a>
+[![corner view of a workspace deployment of fixed_brunelhand](figures/480px-fixed_brunelhand_example_cornernview.png)](figures/fixed_brunelhand_example_cornernview.png)

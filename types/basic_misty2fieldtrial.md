@@ -25,4 +25,4 @@ localization.
 
 ## Photographs of a deployment
 
-<a title="enlarge" href="figures/basic_misty2fieldtrial.jpg">![Misty II Field Trial robot located near its charging pad, and an offboard speaker and webcam](figures/480px-basic_misty2fieldtrial.jpg)</a>
+[![Misty II Field Trial robot located near its charging pad, and an offboard speaker and webcam](figures/480px-basic_misty2fieldtrial.jpg)](figures/basic_misty2fieldtrial.jpg)

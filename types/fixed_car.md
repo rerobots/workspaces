@@ -20,4 +20,4 @@ images use Linux.
 
 ## Photographs of a deployment
 
-<a title="enlarge" href="figures/PIX_Honda_car_frontcornerview.png">![front view of a drive-by-wire Honda sedan with Velodyne LiDAR mounted on top](figures/480px-PIX_Honda_car_frontcornerview.jpg)</a>
+[![front view of a drive-by-wire Honda sedan with Velodyne LiDAR mounted on top](figures/480px-PIX_Honda_car_frontcornerview.jpg)](figures/PIX_Honda_car_frontcornerview.png)

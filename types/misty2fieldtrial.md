@@ -20,4 +20,4 @@ visible from the device files `/dev/video0`, `/dev/video1`, `/dev/video2`.
 
 ## Photographs of a deployment
 
-<a title="enlarge" href="figures/misty2fieldtrial_frontview.jpg">![front view of a Misty II Field Trial robot](figures/480px-misty2fieldtrial_frontview.jpg)</a>
+[![front view of a Misty II Field Trial robot](figures/480px-misty2fieldtrial_frontview.jpg)](figures/misty2fieldtrial_frontview.jpg)

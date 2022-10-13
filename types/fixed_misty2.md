@@ -21,4 +21,4 @@ offboard host (x86_64 Linux) on the same network as the robot.
 
 ## Photographs of a deployment
 
-<a title="enlarge" href="figures/fixed_misty2fieldtrial_frontview.jpg">![front view of a Misty II Field Trial robot](figures/480px-fixed_misty2fieldtrial_frontview.jpg)</a>
+[![front view of a Misty II Field Trial robot](figures/480px-fixed_misty2fieldtrial_frontview.jpg)](figures/fixed_misty2fieldtrial_frontview.jpg)

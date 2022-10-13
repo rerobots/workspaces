@@ -23,4 +23,4 @@ reached from the Crazyflie client library at the address `usb://0`.
 
 ## Photographs of a deployment
 
-<a title="enlarge" href="figures/fixed_crazyflie_example_sideview.png">![side view of a workspace deployment of fixed_crazyflie](figures/480px-fixed_crazyflie_example_sideview.png)</a>
+[![side view of a workspace deployment of fixed_crazyflie](figures/480px-fixed_crazyflie_example_sideview.png)](figures/fixed_crazyflie_example_sideview.png)

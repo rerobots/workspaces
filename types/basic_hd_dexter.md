@@ -19,4 +19,4 @@ It is mounted on a table.
 
 ## Photographs of a deployment
 
-<a title="enlarge" href="figures/basic_hd_dexter_cornerview.jpg">![corner view of robot](figures/480px-basic_hd_dexter_cornerview.jpg)</a>
+[![corner view of robot](figures/480px-basic_hd_dexter_cornerview.jpg)](figures/basic_hd_dexter_cornerview.jpg)
