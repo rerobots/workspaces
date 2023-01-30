@@ -24,7 +24,7 @@ and `/dev/video1`.
 The Kobuki mobile platform and Hokuyo laser scanner are both attached via USB.
 In the default image, the home directory contains the
 [roslaunch](https://wiki.ros.org/roslaunch) file [robot.launch](
-https://github.com/rerobots/workspaces/blob/master/src/multi_kobuki/robot.launch).
+https://github.com/rerobots/workspaces/blob/main/src/multi_kobuki/robot.launch).
 This file starts a ROS Kinetic configuration for using the robot.
 It uses the ROS packages [urg_node](https://wiki.ros.org/urg_node) and
 [kobuki_node](https://wiki.ros.org/kobuki_node).
@@ -36,7 +36,7 @@ number of mobile robots. Each is entirely similar to `rrc1`, except that it
 might have an RPLIDAR A2 laser scanner instead of one by Hokuyo. In that case,
 the reference robot.launch would instead use the ROS package
 [rplidar](https://wiki.ros.org/rplidar), as shown [in the source code](
-https://github.com/rerobots/workspaces/blob/master/src/multi_kobuki/robot-RPLIDAR.launch).
+https://github.com/rerobots/workspaces/blob/main/src/multi_kobuki/robot-RPLIDAR.launch).
 
 
 ## Bill of materials
