@@ -24,3 +24,5 @@ localization.
 
 
 ## Photographs of a deployment
+
+[![Misty II robot located near its charging pad, and an offboard speaker and webcam](figures/480px-basic_misty2fieldtrial.jpg)](figures/basic_misty2fieldtrial.jpg)
