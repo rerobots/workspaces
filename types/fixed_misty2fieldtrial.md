@@ -1,5 +1,6 @@
 ---
 version: 2
+status: deprecated
 ---
 
 # fixed_misty2fieldtrial
