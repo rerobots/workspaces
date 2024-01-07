@@ -24,9 +24,6 @@ To perform checks of the type definitions and other files,
 
     tests/lint
 
-Recent results on [Travis CI](https://travis-ci.com/) are available at
-https://travis-ci.com/github/rerobots/workspaces
-
 
 Style guide
 -----------
