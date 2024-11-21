@@ -7,7 +7,7 @@ version: 2
 ## Description
 
 The **multi_kobuki** workspace type is an extension of the [basic_kobuki](
-basic_kobuki.html) type to have more than one mobile robot.
+basic_kobuki) type to have more than one mobile robot.
 
 The workspace type has two or more compute nodes:
 
