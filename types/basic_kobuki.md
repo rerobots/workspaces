@@ -34,7 +34,7 @@ It uses the ROS packages [urg_node](https://wiki.ros.org/urg_node) and
 
 ## Bill of materials
 
-* [Kobuki](http://kobuki.yujinrobot.com/)
+* [Kobuki](https://kobuki.readthedocs.io/en/devel/)
 * [Raspberry Pi 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)
 * [Hokuyo URG-04LX-UG01](https://www.hokuyo-aut.jp/search/single.php?serial=166)
 * [Logitech Webcam C920](https://www.logitech.com/en-us/product/hd-pro-webcam-c920) ([on Amazon.com](https://www.amazon.com/gp/product/B006JH8T3S/))

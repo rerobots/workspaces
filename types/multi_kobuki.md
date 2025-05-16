@@ -41,7 +41,7 @@ https://github.com/rerobots/workspaces/blob/main/src/multi_kobuki/robot-RPLIDAR.
 
 ## Bill of materials
 
-* [Kobuki](http://kobuki.yujinrobot.com/)
+* [Kobuki](https://kobuki.readthedocs.io/en/devel/)
 * [Raspberry Pi 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)
 * [Hokuyo URG-04LX-UG01](https://www.hokuyo-aut.jp/search/single.php?serial=166)
 * [RPLIDAR A2](https://www.slamtec.com/en/lidar/A2)
