@@ -6,7 +6,7 @@ version: 1
 
 ## Description
 
-This workspace type has a mostly assembled [Haddington Dynamics](https://www.hdrobotic.com/)
+This workspace type has a mostly assembled [Haddington Dynamics](https://web.archive.org/web/20210205160743/https://www.hdrobotic.com/)
 Dexter HD arm with a gripper attached as the end-effector.
 It is mounted on a table.
 
