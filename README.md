@@ -8,9 +8,8 @@ The current release of this documentation is available at
 https://docs.rerobots.net/workspaces
 
 The notion of **workspaces** is described at https://docs.rerobots.net/intro
-The ambition of this repository is to
-define workspace types and to provide code and documentation for producing new
-workspace deployments that realize these types.
+The ambition of this repository is to define workspace types and to provide code
+and documentation for producing new deployments that realize these types.
 
 
 Building and testing
