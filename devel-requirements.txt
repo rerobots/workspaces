@@ -1,2 +1,1 @@
-Markdown == 3.2.2 --hash=sha256:c467cd6233885534bf0fe96e62e3cf46cfc1605112356c4f9981512b8174de59 \
-                  --hash=sha256:1fafe3f1ecabfb514a5285fca634a53c1b32a81cb0feb154264d55bf2ff22c17
+Markdown == 3.8.2 --hash=sha256:5c83764dbd4e00bdd94d85a19b8d55ccca20fe35b2e678a1422b380324dd5f24
